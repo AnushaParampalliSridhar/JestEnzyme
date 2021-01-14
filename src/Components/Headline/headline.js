@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Headline extends React.Component{
 
@@ -25,6 +26,11 @@ class Headline extends React.Component{
             </div>
         )
     }
+}
+
+Headline.propTypes = {
+    header : PropTypes.string,
+    description : PropTypes.string
 }
 
 export default Headline;
