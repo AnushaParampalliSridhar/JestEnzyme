@@ -5,10 +5,10 @@ import './styles.scss';
 class Header extends React.Component{
     render(){
         return(
-            <header>
+            <header data-test="headerComponent">
                 <div className="wrap">
                     <div className="logo">
-                        <span>SimpleTut</span>
+                        <span data-test="logoImg">SimpleTut</span>
                     </div>
                 </div>
             </header>
