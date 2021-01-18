@@ -22,7 +22,7 @@ class App extends React.Component {
 
   render(){
     return (
-      <div>
+      <div data-test="appComponent">
         <Header/>     
         <section className="main">
           <Headline header="Posts" description="Click the button to render the posts"/>
